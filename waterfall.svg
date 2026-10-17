@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">Forest waterfall</title>
+  <desc id="desc">A waterfall flowing between green cliffs</desc>
+  <rect width="900" height="600" fill="#b9e7f2"/>
+  <path d="M0 0H325L365 190 315 410 0 520Z" fill="#356b4a"/>
+  <path d="M900 0H580L545 200 600 420 900 520Z" fill="#2d6042"/>
+  <path d="M365 0H580L550 390Q475 470 315 410L365 190Z" fill="#dff7ff"/>
+  <path d="M410 0H535L520 385Q455 430 365 395L405 185Z" fill="#78c9e6"/>
+  <ellipse cx="455" cy="490" rx="330" ry="100" fill="#3f99b5"/>
+  <path d="M180 495Q310 445 440 500T720 495" fill="none" stroke="#dff7ff" stroke-width="15"/>
+  <g fill="#1e4d35">
+    <circle cx="120" cy="150" r="100"/><circle cx="250" cy="95" r="115"/>
+    <circle cx="690" cy="110" r="120"/><circle cx="815" cy="175" r="105"/>
+  </g>
+</svg>

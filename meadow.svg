@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">Flower meadow</title>
+  <desc id="desc">A green meadow filled with colorful flowers</desc>
+  <rect width="900" height="360" fill="#9edcf5"/>
+  <circle cx="730" cy="115" r="65" fill="#ffe066"/>
+  <path d="M0 390 Q170 290 340 385 T680 380 T1020 375V600H0Z" fill="#69a84f"/>
+  <rect y="420" width="900" height="180" fill="#4f8f3a"/>
+  <g stroke="#285c2e" stroke-width="8">
+    <path d="M140 545V465"/><path d="M310 565V475"/><path d="M485 540V455"/><path d="M650 565V470"/><path d="M785 535V450"/>
+  </g>
+  <g>
+    <circle cx="140" cy="455" r="22" fill="#f43f5e"/>
+    <circle cx="310" cy="465" r="22" fill="#facc15"/>
+    <circle cx="485" cy="445" r="22" fill="#a855f7"/>
+    <circle cx="650" cy="460" r="22" fill="#fb7185"/>
+    <circle cx="785" cy="440" r="22" fill="#ffffff"/>
+  </g>
+</svg>

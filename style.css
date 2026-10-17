@@ -1,0 +1,88 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #dedede;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+figure {
+  margin: 0;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #111111;
+  border: 2px solid #555555;
+}
+
+.grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+figcaption {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+@media screen and (min-width: 772px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid img {
+    border-radius: 50%;
+  }
+
+  .grid figure:last-child {
+    grid-column: 1 / span 2;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .grid figure:nth-child(3n) {
+    grid-column: 1 / span 2;
+  }
+
+  .grid img {
+    border-radius: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  figure {
+    background-color: #222222;
+    color: #ffe066;
+    border-color: #000000;
+  }
+}

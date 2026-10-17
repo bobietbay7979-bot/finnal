@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">Starry night</title>
+  <desc id="desc">A crescent moon and stars in a dark night sky</desc>
+  <rect width="900" height="600" fill="#101b3f"/>
+  <circle cx="690" cy="155" r="78" fill="#fff3b0"/>
+  <circle cx="725" cy="125" r="78" fill="#101b3f"/>
+  <g fill="#ffffff">
+    <circle cx="120" cy="105" r="7"/>
+    <circle cx="245" cy="175" r="5"/>
+    <circle cx="375" cy="90" r="8"/>
+    <circle cx="515" cy="205" r="6"/>
+    <circle cx="805" cy="270" r="7"/>
+  </g>
+  <path d="M0 470 180 300 345 470Z" fill="#1f4d45"/>
+  <path d="M250 490 505 255 755 490Z" fill="#183d38"/>
+  <path d="M590 475 760 330 900 475V600H0V470Z" fill="#1f4d45"/>
+</svg>
